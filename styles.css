@@ -1,0 +1,425 @@
+@font-face {
+    font-family: 'NinjaShield';
+    src: url('assets/fonts/NinjaShield.otf') format('opentype');
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #F6EEE6;
+}
+
+header {
+    display: inline;
+}
+
+.jumbotron {
+    padding: 60px;
+    text-align: center;
+    overflow: auto;
+    background-color: #dcbe9f;
+}
+
+.jumbotron .title {
+    font-size: 15px;
+    width: 55%;
+    color: #3C4A4C;
+    float: right;
+}
+
+.jumbotron img {
+    width: 45%;
+    min-width: 150px;
+    max-width: 250px;
+    float: left;
+}
+
+nav {
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    background-color: #3C4A4C;
+    color: #fff;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin:0 15px 0 15px;
+    z-index: 1;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+
+nav a:hover {
+    color: #D4504F;
+}
+
+a {
+    text-decoration: none;
+}
+
+html,body {
+    scroll-behavior: smooth;
+}
+
+body input {
+    font-family: 'NinjaShield';
+}
+
+main {
+    overflow: auto;
+    padding: 1rem 5rem 3rem 5rem; 
+}
+
+main div.content {
+    margin: 0rem 0rem 0rem 0rem;
+}
+
+main div.content1 section.wrap div.search {
+    width: 100%;
+    text-align: center;
+    display: flex;
+}
+
+main div.content1 section.wrap div.search input.searchTerm {
+    width: 100%;
+    font-size: 12px;
+    border: 3px solid #3C4A4C;
+    border-right: none;
+    padding: 5px;
+    height: 36px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #3C4A4C;
+}
+
+main div.content1 section.wrap div.search input.searchTerm:focus{
+    color: #3C4A4C;
+}
+
+main div.content1 section.wrap div.search button.searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #3C4A4C;
+    background: #fff;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+main div.content1 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+main div.content1 section.titlesearch {
+    color: #3C4A4C;
+    flex: 50%;
+}
+main div.content1 section.wrap {
+    flex: 50%;
+    color: #3C4A4C;
+}
+  
+h1,p,a,footer{
+    font-family: 'NinjaShield';
+    text-align: center;
+}
+
+main div.content2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    font-family: 'NinjaShield';
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+main div.content2 section h1 {
+    font-size: 20px;
+    color: #3C4A4C;
+}
+
+main div.content2 section label {
+    font-size: 15px;
+    color: #3C4A4C;
+}
+
+main div.content2 input[type="checkbox"] {
+    display: none;
+}
+main div.content2 label {
+    margin: 0 3px 0 3px;
+    cursor:pointer;
+    color: #555;
+}
+main div.content2 input[type="checkbox"]:checked + label {
+    color: #D4504F;
+}
+
+main div.content3 {
+    text-align: center;
+    font-family: 'NinjaShield';
+} 
+
+main div.content3 h3 {
+    color: #3C4A4C;
+    font-size: 20px;
+    text-align: center;
+}
+
+main div.content3 section.item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main div.content3 section.item div.itemlist {
+    flex: 35%;
+    color: #3C4A4C;
+    text-align: center;
+    border: 1px solid #3C4A4C;
+    border-radius: 10px;
+    margin: 1px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:2px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+main div.content3 section.item div.itemlist section.img {
+    width: 100px;
+    height: 100px;
+}
+
+main div.content3 section.item div.itemlist section.data {
+    width: 190px;
+    height: 100px;
+    text-align:left;
+}
+main div.content3 section.item div.itemlist section.data span.max {
+    font-size:10px;
+}
+
+
+main div.content3 section.item div.itemlist section.data h4 {
+    font-size:15px;
+}
+
+main div.content3 section.item div.itemlist section.data span.kategori li {
+    font-size:10px;
+    border-radius: 5px;
+    border: 0 solid #fff;
+    background-color: #D4504F;
+    list-style-type: none;
+    padding: 2px;
+    color: #fff;
+    display: inline;
+}
+
+
+main div.content3 section.item div.itemlist section.number {
+    padding: 2px;
+    font-size: 15px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main div.content3 section.item div.itemlist section.number div.num {
+    text-align: right;
+    flex: 100%;
+}
+
+main div.content3 section.item div.itemlist section.number div.detail {
+    flex: 100%;
+}
+main div.content3 section.item div.itemlist section.number div.detail span.detail {
+    border-radius: 5px;
+    padding: 2px;
+    border: 1px solid #000;
+    background-color: #D4504F;
+    color: #fff;
+}
+
+main div.content3 section.item div.itemlist section.number div.detail span.detail:hover {
+    background-color: #81BEC6;
+    color: #3C4A4C;
+}
+
+main div.content3 div.more {
+    text-align: center !important;
+}
+
+main div.content3 div.more button.btn {
+    font-family: 'NinjaShield';
+    color: #fff;
+    padding: 5px;
+    margin: 1rem 0 0 0;
+    background-color: #3C4A4C;
+    border-radius: 10px;
+    border: 0 solid #fff;
+}
+
+main div.content3 div.more button.btn:hover {
+    background-color: #D4504F;
+    color: #3C4A4C;
+}
+
+main div.content4 {
+    font-family: 'NinjaShield';
+    color: #fff;
+    background-color: #3C4A4C;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+main div.content4 section p {
+    font-size: 12px;
+}
+
+main div.content4 section img {
+    width: 100px;
+    max-width: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+main div.content4 section button.quiz {
+    font-family: 'NinjaShield';
+    color: #3C4A4C;
+    padding: 5px;
+    margin: 1rem 0 0 0;
+    background-color: #D4504F;
+    border-radius: 10px;
+    border: 0 solid #fff;
+}
+
+main div.content4 section button.quiz:hover {
+    background-color: #81BEC6;
+    color: #fff;
+}
+
+main div.content4 section div.end img {
+    margin: 1rem 0 1rem 0;
+    width: 100px;
+    max-width: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+footer {
+    padding: 20px;
+    background-color: #3C4A4C;
+}
+
+footer div.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+footer div.flex-container div.flex-item-left {
+    color: #fff;
+    padding: 10px;
+    flex: 50%;
+}
+
+footer div.flex-container div.flex-item-left h4 {
+    font-size: 20px;
+}
+
+footer div.flex-container div.flex-item-left p {
+    font-size: 15px;
+}
+
+
+footer div.flex-container div.flex-item-right {
+    color: #fff;
+    padding: 10px;
+    flex: 50%;
+}
+
+footer div.flex-container div.flex-item-right h4 {
+    font-size: 20px;
+}
+
+
+footer div.flex-container div.flex-item-right li {
+    list-style-type: none;
+}
+
+footer div.flex-container div.flex-item-right li a {
+    font-size: 15px;
+    color: #D4504F !important;
+}
+
+footer div.flex-container div.flex-item-right li a:hover {
+    color: #fff !important;
+}
+
+
+/* Pada ukuran mobile*/
+@media screen and (max-width: 765px){
+    header div.jumbotron img,header div.jumbotron div.title {
+        width: 100%;
+        padding: 0;
+    }
+    main {
+        padding: 1rem 2rem 3rem 2rem;
+    }
+    .flex-item-right, .flex-item-left {
+        flex: 100%;
+    }
+    nav {
+        text-align: center;
+    }
+    nav a {
+        font-size: 15px;
+    }
+    main div.content1 section.titlesearch {
+        font-size: 15px;
+        flex: 100%;
+    }
+    .wrap {
+        flex: 100%;
+        color: #3C4A4C;
+    }
+    main div.content3 section.item div.itemlist {
+        flex: 50%;
+    }
+    main div.content3 section.item div.itemlist section.number {
+        font-size: 10px;
+    }
+    main div.content3 section.item div.itemlist section.data {
+        width: 130px;
+        height: 100px;
+    }
+    main div.content3 section.item div.itemlist section.number {
+        height: 100px;
+        width: 50px;
+    }
+
+
+}
+
+
